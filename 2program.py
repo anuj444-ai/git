@@ -321,3 +321,78 @@
 # with open("demo.txt", "w") as f:
 #     f.write("new data")
 
+# import os
+
+# os.remove("sample.txt")
+
+
+# with open("practice.txt", "w") as f:
+#     f.write("this is a practice file for python programming. 1234567890")
+#     f.write("hi everyone, welcome to global college. 1234567890/n")
+
+
+# with open("practice.txt", "w") as f:
+#     f.write("Hi evryone/nwe are learningfile I/O/n")
+#     f.write("using java./nI like programming in java.")
+    
+
+# with open("practice.txt", "r") as f:
+#     data = f.read()
+
+# new_data = data.replace("java", "python")    
+# print(new_data)
+
+# with open("practice.txt", "w") as f:
+#     f.write(new_data)
+
+# word = "learning"
+# with open("practice.txt", "r") as f:
+#     data = f.read() 
+#     if(data.find(word) != -1):
+#         print("found")
+#     else:
+#         print("not found")    
+        
+
+# def check_for_word(word):
+#     word = "xlearning"
+#     with open("practice.txt", "r") as f:
+#         data = f.read() 
+#         if(data.find(word) != -1):
+#             print("found")
+#         else:
+#             print("not found")
+# check_for_word("learning")
+
+# def check_for_word(word):
+#     word = "xlearning"
+#     with open("practice.txt", "r") as f:
+#         data = f.read() 
+#         if(data.find(word) != -1):
+#             print("found")
+#         else:
+#             print("not found")
+
+# def check_for_line():
+#     word = "programming"
+#     data = True
+#     line_no = 1
+#     with open("practice.txt", "r") as f:
+#         while data:
+#             data = f.readline()
+#             if(word in data):
+#                 print( line_no)
+#                 return
+#             line_no += 1
+
+#     return -1
+
+# check_for_line()
+
+
+
+# with open("practice.txt", "r") as f:
+#     data = f.read()
+    
+#     print(data)
+            
