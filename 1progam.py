@@ -1479,4 +1479,110 @@
     
 #     print(data)
             
+# class Student:
+#     name = "Anuj Dubey"
+
+# s1 = Student()
+# print(s1.name)
+
+# s2 = Student()
+# print(s2.name)
+
+# class car:
+#     colour = "red"
+
+# car1 = car()
+# print(car1.colour)
+
+# class car:
+#     colour = "black"
+#     brand = "scorpio"
+
+
+# car1 = car()
+# print(car1.colour)
+# print(car1.brand)
+
+
+# class car:
+#     colour = "black"
+#     brand = "scorpio"
+
+
+# car1 = car()
+# print(car1.colour)
+# print(car1.brand)
+
+# class car:
+#     colour = "grey"
+#     brand = "scorpio"
+
+# car2 = car()
+# print(car2.colour)
+# print(car2.brand)
+
+
+# class student:
+#     name = "Anuj Dubey"
+#     def __init__(self):
+#         print("self")
+#         print("adding new student in database..")
+    
+# s1 = student()
+# print(s1)
+
+
+# class student:
+#     name = "Anuj Dubey"
+#     def __init__(self, name):
+#         self.name = name
+#         print("self")
+#         print("adding new student in database..")
+    
+# s1 = student("Anuj Dubey")
+# print(s1.name)
+
+# class student:
+    
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
+#         print("adding new student in database..")
+    
+# s1 = student("Anuj Dubey", 85)
+# print(s1.name)
+# print(s1.marks)
+
+# s2 = student("Rahul Dubey", 90)
+# print(s2.name)  
+# print(s2.marks)
+
+
+
+# class student:
+
+#     #default constructor
+#     def __init__(self):
+#         pass
+    
+#     #parameterized constructor
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
+#         print("adding new student in database..")
+    
+# s1 = student("Anuj Dubey", 85)
+# print(s1.name)
+# print(s1.marks)
+
+# s2 = student("Rahul Dubey", 90)
+# print(s2.name)  
+# print(s2.marks)
+
+
+
+
+
+
+
 
