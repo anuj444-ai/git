@@ -497,8 +497,226 @@
 # print(s2.marks)
 
 
+# class student:
+
+#     college_name = "Global College"
+    
+    
+#     def __init__(self, name, marks):
+#             self.name = name
+#             self.marks = marks
+#             print("adding new student in database..")   
+
+    
+# s1 = student("Anuj Dubey", 85)
+# print(s1.name)
+# print(s1.marks)
+
+# s2 = student("Rahul Dubey", 90)
+# print(s2.name)  
+# print(s2.marks)
+
+# print(student.college_name)
+# print(s2.college_name)
+
+# class student:
+
+#     college_name = "Global College"
+    
+#     def __init__(self, name, marks):
+#             self.name = name
+#             self.marks = marks
+            
+#     def welcome(self):
+#         print("welcome to global college")
+#         print("welcome student")
+
+# s1 = student("Anuj Dubey", 85)
+# s1.welcome()
+
+
+# class student:
+
+#     college_name = "Global College"
+    
+#     def __init__(self, name, marks):
+#             self.name = name
+#             self.marks = marks
+            
+#     def welcome(self):
+#         print("welcome to global college")
+#         print("welcome student,", self.name)
+
+# s1 = student("Anuj Dubey", 85)
+# s1.welcome()
+
+# class student:
+
+#     college_name = "Global College"
+    
+#     def __init__(self, name, marks):
+#             self.name = name
+#             self.marks = marks
+            
+#     def welcome(self):
+#         print("welcome to global college")
+#         print("welcome student,", self.name)
+
+#     def get_marks(self):
+#         return self.marks    
+
+# s1 = student("Anuj Dubey", 85)
+# s1.welcome()
+
+# print(s1.get_marks())
+
+
+# class student:
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
+
+#     def get_avg(self):
+#         sum = 0
+#         for val in self.marks:
+#             sum += val
+#         print("hi", self.name, "your avg score is:", sum/3)
 
 
 
 
+# s1 = student("Anuj Dubey", [85, 100, 90])   
+# s1.get_avg()
 
+# class student:
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
+
+#     def get_avg(self):
+#         sum = 0
+#         for val in self.marks:
+#             sum += val
+#         print("hi", self.name, "your avg score is:", sum/3)
+
+
+
+
+# s1 = student("Anuj Dubey", [85, 100, 90])   
+# s1.get_avg()
+    
+# s1.name = "Rahul Dubey"
+# s1.get_avg()
+
+# class student:
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
+
+#     def hello():
+#         print("hello")    
+
+#     def get_avg(self):
+#         sum = 0
+#         for val in self.marks:
+#             sum += val
+#         print("hi", self.name, "your avg score is:", sum/3)
+
+
+
+
+# s1 = student("Anuj Dubey", [85, 100, 90])   
+# s1.get_avg()
+    
+# s1.name = "Rahul Dubey"
+# s1.get_avg()
+
+# class car:
+#     def __init__(self):
+#         self.accelerate = False
+#         self.brake = False
+#         self.steering = False
+#         self.clutch = False
+
+#     def start(self):
+#         self.clutch = True
+#         self.accelerate = True
+#         print("car started")
+
+# car1 = car()
+# car1.start()
+
+
+
+# class account:
+#     def __init__(self, name, balance):
+#         self.name = name
+#         self.balance = balance
+
+#     def deposit(self, amount):
+#         self.balance += amount
+#         print("deposited", amount, "new balance is", self.balance)
+
+#     def withdraw(self, amount):
+#         if(amount > self.balance):
+#             print("insufficient balance")
+#             return
+#         self.balance -= amount
+#         print("withdrawn", amount, "new balance is", self.balance)
+
+
+# acc1 = account("Anuj Dubey", 1000)
+# acc1.deposit(500)   
+# acc1.withdraw(2000)
+
+
+# class account:
+#     def __init__(self, bal, acc):
+#         self.balance = bal
+#         self.account_no = acc
+
+#     #debit method
+#     def debit(self, amount):
+#         self.balance -= amount
+#         print("Rs", amount, "was debited")
+#         print("total balance =", self.get_balance())
+
+
+#     def credit(self, amount):
+#         self.balance += amount
+#         print("Rs", amount, "was credited")        
+#         print("total balance =", self.get_balance())
+
+#     def get_balance(self):
+#           return self.balance
+
+# acc1 = account(1000, "1234567890")
+# acc1.debit(5000)
+# acc1.credit(2000)
+# acc1.credit(3000000000000)
+
+
+# class account:
+#     def __init__(self, bal, acc):
+#         self.balance = bal
+#         self.account_no = acc
+
+#     #debit method
+#     def debit(self, amount):
+#         self.balance -= amount
+#         print("Rs", amount, "was debited")
+#         print("total balance =", self.get_balance())
+
+
+#     def credit(self, amount):
+#         self.balance += amount
+#         print("Rs", amount, "was credited")        
+#         print("total balance =", self.get_balance())
+
+#     def get_balance(self):
+#           return self.balance
+
+# acc1 = account(1000, "1234567890")
+# acc1.debit(5000)
+# acc1.credit(2000)
+# acc1.credit(3000000000000)
