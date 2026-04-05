@@ -1804,8 +1804,229 @@
 # acc1.credit(3000000000000)
 
 
+# class student:
+#     def __init__(self, name, marks):
+#         self.name = name
+
+# s1 = student("anuj dubey")
+# print(s1.name)
+# del s1.name
+# print(s1.name)
+
+# class account:
+#     def __init__(self, acc_no, acc_pass):
+#         self.acc_no = acc_no
+#         self.__acc_pass = acc_pass
+
+# acc1 = account("1234567890", "password123")
+
+# print(acc1.acc_no)
+
+# class account:
+#     def __init__(self, acc_no, acc_pass):
+#         self.acc_no = acc_no
+#         self.___acc_pass = acc_pass
+
+#     def reset_pass(self):
+#         print("self.___acc_pass")    
+
+# acc1 = account("1234567890", "password123")
+
+# print(acc1.acc_no)
+# print(acc1.reset_pass())
+
+# class person:
+#     __name = "anonymous"
+
+#     def __hello(self):
+#         print("hello person")
+
+#     def welcome(self):
+#         self.__hello()
+
+# p1 = person()
+
+# print(p1.welcome())
+
+# class student:
+#     def __init__(self, name, marks):
+#         self.name = name
+
+# s1 = student("anuj dubey")
+# print(s1.name)
+# del s1.name
+# print(s1.name)
+
+# class account:
+#     def __init__(self, acc_no, acc_pass):
+#         self.acc_no = acc_no
+#         self.__acc_pass = acc_pass
+
+# acc1 = account("1234567890", "password123")
+
+# print(acc1.acc_no)
+
+# class account:
+#     def __init__(self, acc_no, acc_pass):
+#         self.acc_no = acc_no
+#         self.___acc_pass = acc_pass
+
+#     def reset_pass(self):
+#         print("self.___acc_pass")    
+
+# acc1 = account("1234567890", "password123")
+
+# print(acc1.acc_no)
+# print(acc1.reset_pass())
+
+# class person:
+#     __name = "anonymous"
+
+#     def __hello(self):
+#         print("hello person")
+
+#     def welcome(self):
+#         self.__hello()
+
+# p1 = person()
+
+# print(p1.welcome())
+
+
+
+# class student:
+#     def __init__(self, name, marks):
+#         self.name = name
+
+# s1 = student("anuj dubey")
+# print(s1.name)
+# del s1.name
+# print(s1.name)
+
+# class account:
+#     def __init__(self, acc_no, acc_pass):
+#         self.acc_no = acc_no
+#         self.__acc_pass = acc_pass
+
+# acc1 = account("1234567890", "password123")
+
+# print(acc1.acc_no)
+
+# class account:
+#     def __init__(self, acc_no, acc_pass):
+#         self.acc_no = acc_no
+#         self.___acc_pass = acc_pass
+
+#     def reset_pass(self):
+#         print("self.___acc_pass")    
+
+# acc1 = account("1234567890", "password123")
+
+# print(acc1.acc_no)
+# print(acc1.reset_pass())
+
+# class person:
+#     __name = "anonymous"
+
+#     def __hello(self):
+#         print("hello person")
+
+#     def welcome(self):
+#         self.__hello()
+
+# p1 = person()
+
+# print(p1.welcome())
 
 
 
 
+# class student:
+#     def __init__(self, name, marks):
+#         self.name = name
+
+# s1 = student("anuj dubey")
+# print(s1.name)
+# del s1.name
+# print(s1.name)
+
+# class account:
+#     def __init__(self, acc_no, acc_pass):
+#         self.acc_no = acc_no
+#         self.__acc_pass = acc_pass
+
+# acc1 = account("1234567890", "password123")
+
+# print(acc1.acc_no)
+
+# class account:
+#     def __init__(self, acc_no, acc_pass):
+#         self.acc_no = acc_no
+#         self.___acc_pass = acc_pass
+
+#     def reset_pass(self):
+#         print("self.___acc_pass")    
+
+# acc1 = account("1234567890", "password123")
+
+# print(acc1.acc_no)
+# print(acc1.reset_pass())
+
+# class person:
+#     __name = "anonymous"
+
+#     def __hello(self):
+#         print("hello person")
+
+#     def welcome(self):
+#         self.__hello()
+
+# p1 = person()
+
+# print(p1.welcome())
+
+
+# class student:
+#     def __init__(self, name, marks):
+#         self.name = name
+
+# s1 = student("anuj dubey")
+# print(s1.name)
+# del s1.name
+# print(s1.name)
+
+# class account:
+#     def __init__(self, acc_no, acc_pass):
+#         self.acc_no = acc_no
+#         self.__acc_pass = acc_pass
+
+# acc1 = account("1234567890", "password123")
+
+# print(acc1.acc_no)
+
+# class account:
+#     def __init__(self, acc_no, acc_pass):
+#         self.acc_no = acc_no
+#         self.___acc_pass = acc_pass
+
+#     def reset_pass(self):
+#         print("self.___acc_pass")    
+
+# acc1 = account("1234567890", "password123")
+
+# print(acc1.acc_no)
+# print(acc1.reset_pass())
+
+# class person:
+#     __name = "anonymous"
+
+#     def __hello(self):
+#         print("hello person")
+
+#     def welcome(self):
+#         self.__hello()
+
+# p1 = person()
+
+# print(p1.welcome())
 
