@@ -765,3 +765,90 @@
 # p1 = person()
 
 # print(p1.welcome())
+
+
+# class car:
+#     @staticmethod
+#     def start():
+#         print("car started..")
+
+#     @staticmethod
+#     def stop():
+#         print("car stopped..")  
+
+
+# class Toytacar(car):
+#     def __init__(self, name):
+#         self.name = name
+
+
+# car1 = Toytacar("innova")
+# car2 = Toytacar("fortuner")
+
+# print(car1.start())
+
+
+
+
+# class car:
+#     colour = "grey"
+#     @staticmethod
+#     def start():
+#         print("car started..")
+
+#     @staticmethod
+#     def stop():
+#         print("car stopped..")  
+
+
+# class Toytacar(car):
+#     def __init__(self, name):
+#         self.name = name
+
+
+# car1 = Toytacar("innova")
+# car2 = Toytacar("fortuner")
+
+# print(car1.colour)
+
+
+# class car:
+#     @staticmethod
+#     def start():
+#         print("car started..")
+
+#     @staticmethod
+#     def stop():
+#         print("car stopped..")  
+
+
+# class Toytacar(car):
+#     def __init__(self, brand):
+#         self.brand = brand
+
+
+# class fortuner(Toytacar):
+#     def __init__(self, type):
+#         self.type = type
+
+# car1 = fortuner("diesel")
+# car1.start()
+
+
+# class A:
+#     varA = "welcome to class A"
+
+# class B:
+#     varB = "welcome to class B"
+
+# class C(A, B):
+#     print("welcome to class C")
+
+# c1 = C()
+
+# print(c1.varA)
+# print(c1.varB)
+# print(c1.varC)
+
+
+
