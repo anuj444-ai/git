@@ -851,4 +851,110 @@
 # print(c1.varC)
 
 
+# class car:
+#     def _init_(self, type):
+#         self.type = type
 
+#     @staticmethod
+#     def start():
+#         print("car started..")
+
+#     @staticmethod
+#     def stop():
+#         print("car stopped..")  
+
+
+# class Toytacar(car):
+#     def __init__(self, name, type):
+#         self.name = name
+#         super().__init__(type)
+
+# car1 = Toytacar("prius", "electric")
+# print(car1.type)        
+
+
+# class car:
+#     def _init_(self, type):
+#         self.type = type
+
+#     @staticmethod
+#     def start():
+#         print("car started..")
+
+#     @staticmethod
+#     def stop():
+#         print("car stopped..")  
+
+
+# class Toytacar(car):
+#     def __init__(self, name, type):
+#         self.name = name
+#         super().__init__(type)
+
+# car1 = Toytacar("prius", "electric")
+# print(car1.type)        
+
+
+# class car:
+#     def _init_(self, type):
+#         self.type = type
+
+#     @staticmethod
+#     def start():
+#         print("car started..")
+
+#     @staticmethod
+#     def stop():
+#         print("car stopped..")  
+
+
+# class Toytacar(car):
+#     def __init__(self, name, type):
+#         super().__init__(type)
+#         self.name = name
+#         super().start()
+
+# car1 = Toytacar("prius", "electric")
+# print(car1.type)        
+
+
+# class car:
+#     def _init_(self, type):
+#         self.type = type
+
+#     def start(self):
+#         print("car started..")
+
+#     def stop(self):
+#         print("car stopped..")
+
+# class Toytacar(car):
+#     def _init_(self, name, type):
+#         super()._init__(type)
+#         self.name = name
+#         super().start()
+
+# car1 = Toytacar("prius", "electric")
+# print(car1.type)
+
+
+# class car:
+#     def __init__(self, type):
+#         self.type = type
+
+#     def start(self):
+#         print("car started..")
+
+#     def stop(self):
+#         print("car stopped..")
+
+
+# class Toytacar(car):
+#     def __init__(self, name, type):
+#         super().__init__(type)
+#         self.name = name
+#         super().start()
+
+
+# car1 = Toytacar("prius", "electric")
+# print(car1.type)
