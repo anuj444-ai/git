@@ -1,0 +1,93 @@
+!DOCTYPE html>
+<html>
+
+<head>
+    <title>Anuj Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        /* Navbar */
+        nav {
+            background: black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 15px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .product {
+            border: 1px solid gray;
+            padding: 20px;
+            display: inline-block;
+        }
+
+        button {
+            background: green;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 🔹 Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#product">Product</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- 🔹 Home -->
+    <section id="home">
+        <h1>Anuj Dubey</h1>
+        <p>Web Developer | Student</p>
+    </section>
+
+    <!-- 🔹 Skills -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <p>HTML, CSS, JavaScript</p>
+    </section>
+
+    <!-- 🔹 Product Page -->
+    <section id="product">
+        <h2>My Product</h2>
+
+        <div class="product">
+            <h3>Smartphone</h3>
+            <img src="https://via.placeholder.com/150"><br><br>
+            <p>Price: ₹15,000</p>
+            <button onclick="alert('Added to Cart')">Add to Cart</button>
+        </div>
+    </section>
+
+    <!-- 🔹 Contact Form -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+            <input type="text" placeholder="Name"><br><br>
+            <input type="email" placeholder="Email"><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
