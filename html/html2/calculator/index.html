@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            font-family: Arial;
+        }
+
+        .calculator {
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        input {
+            width: 100%;
+            height: 40px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            text-align: right;
+        }
+
+        button {
+            width: 60px;
+            height: 40px;
+            margin: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="calculator">
+
+        <!-- Display -->
+        <input type="text" id="display" disabled>
+
+        <!-- Buttons -->
+        <br>
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="press('/')">/</button>
+        <button onclick="press('*')">*</button>
+        <button onclick="press('-')">-</button>
+
+        <br>
+        <button onclick="press('7')">7</button>
+        <button onclick="press('8')">8</button>
+        <button onclick="press('9')">9</button>
+        <button onclick="press('+')">+</button>
+
+        <br>
+        <button onclick="press('4')">4</button>
+        <button onclick="press('5')">5</button>
+        <button onclick="press('6')">6</button>
+
+        <br>
+        <button onclick="press('1')">1</button>
+        <button onclick="press('2')">2</button>
+        <button onclick="press('3')">3</button>
+
+        <br>
+        <button onclick="press('0')">0</button>
+        <button onclick="calculate()">=</button>
+
+    </div>
+
+    <script>
+
+        let display = document.getElementById("display");
+
+        // Number ya operator press
+        function press(value) {
+            display.value += value;
+        }
+
+        // Clear
+        function clearDisplay() {
+            display.value = "";
+        }
+
+        // Calculate result
+        function calculate() {
+            try {
+                display.value = eval(display.value);
+            } catch {
+                display.value = "Error";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
